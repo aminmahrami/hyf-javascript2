@@ -757,7 +757,7 @@ let repos = [
  smart_bar.setAttribute('id','smart_bar');
 let big_title = document.createElement('h1');
  smart_bar.appendChild(big_title);
- big_title.innerHTML= 'Hack Your Future Reposority';
+ big_title.innerHTML= 'Hack Your Future Repository';
  big_title.setAttribute('id','big_title');
 
 
