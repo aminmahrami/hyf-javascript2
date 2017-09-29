@@ -1,5 +1,5 @@
  let button = document.createElement('button');
-button.innerHTML = "click here please";
+button.innerHTML = "help";
 document.body.appendChild(button);
 button.setAttribute('id', 'button');
 button.onclick = function (){
@@ -37,8 +37,9 @@ let json_obj = JSON.parse(httpGet(theUrl));
  header.innerHTML = city+ ' temperature is '+json_obj.main.temp+ ' degree'; 
          
 }
-let header = document.createElement ('h2');
+let header = document.createElement ('p');
 document.body.appendChild(header);
+header.setAttribute('id', 'results');
 
 
 
