@@ -23,7 +23,7 @@ function httpGet(theUrl){
 
 //make city name from input
 
-let api = 'http://api.openweathermap.org/data/2.5/weather?q=';
+let api = 'https://api.openweathermap.org/data/2.5/weather?q=';
 let apiKey = '&APPID=2220d743f07c7359c58dcb3860306e1d';
 let measure = '&units=metric';
 let theUrl = " ";
